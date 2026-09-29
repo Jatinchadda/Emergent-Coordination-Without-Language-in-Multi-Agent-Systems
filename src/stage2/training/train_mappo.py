@@ -151,7 +151,7 @@ class MAPPOConfig:
 
     # Stage-1 behavioral warm start.
     stage1_warm_start: bool = True
-    stage1_checkpoint_dir: str = "models/stage1_selected"
+    stage1_checkpoint_dir: str = "models"
 
     # Curriculum: first learn the three-agent intersection without
     # scripted traffic, then continue from the same policies with
