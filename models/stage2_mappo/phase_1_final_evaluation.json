@@ -1,0 +1,15 @@
+{
+  "mean_reward": 3794.3089375958225,
+  "agent_mean_reward": [
+    4089.1427057752894,
+    3216.8452965706265,
+    4076.938810441553
+  ],
+  "mean_episode_length": 860.8,
+  "collision_rate": 0.6,
+  "mean_collisions": 0.6,
+  "mean_near_collisions": 4.2,
+  "mean_minimum_distance": 24.726422301998095,
+  "mean_minimum_ttc": 5.78468459493891,
+  "completion_rate": 0.0
+}

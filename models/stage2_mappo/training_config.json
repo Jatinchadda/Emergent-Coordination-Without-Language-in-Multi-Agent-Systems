@@ -1,0 +1,79 @@
+{
+  "mappo": {
+    "seed": 42,
+    "total_updates": 50,
+    "rollout_steps": 2048,
+    "gamma": 0.995,
+    "gae_lambda": 0.95,
+    "clip_coef": 0.2,
+    "value_clip_coef": null,
+    "entropy_coef": 0.02,
+    "value_coef": 0.5,
+    "max_grad_norm": 0.5,
+    "update_epochs": 6,
+    "minibatch_size": 256,
+    "actor_learning_rate": 0.0001,
+    "critic_learning_rate": 0.0001,
+    "hidden_dim": 128,
+    "normalize_observations": true,
+    "normalize_advantages": true,
+    "background_traffic": true,
+    "warmup_updates": 25,
+    "eval_interval": 10,
+    "eval_episodes": 5,
+    "final_eval_episodes": 20,
+    "save_interval": 50,
+    "device": "cuda",
+    "output_dir": "models/stage2_mappo"
+  },
+  "environment": {
+    "approach_length": 120.0,
+    "exit_length": 120.0,
+    "intersection_half_width": 12.0,
+    "lane_width": 3.5,
+    "lanes_per_approach": 2,
+    "stop_line_distance": 12.0,
+    "vehicle_length": 4.5,
+    "vehicle_width": 1.8,
+    "dt": 0.1,
+    "max_steps": 1800,
+    "max_speed": 13.0,
+    "min_speed": 0.0,
+    "max_acceleration": 2.0,
+    "max_braking": -4.0,
+    "yield_acceleration": -2.0,
+    "background_vehicle_count": 8,
+    "background_min_speed": 4.0,
+    "background_max_speed": 11.0,
+    "minimum_same_lane_spawn_gap": 20.0,
+    "collision_distance": 2.5,
+    "near_collision_distance": 6.0,
+    "dangerous_ttc": 3.0,
+    "collision_penalty": 300.0,
+    "completion_reward": 2000.0,
+    "team_completion_reward": 3000.0,
+    "reward_scale": 0.01,
+    "progress_scale": 2.0,
+    "time_penalty": 0.01,
+    "unsafe_penalty": 0.1
+  },
+  "background_traffic": true,
+  "phase_name": "traffic",
+  "agents": {
+    "agent_0": {
+      "behavior": "aggressive",
+      "checkpoint": "aggressive_seed45.pt"
+    },
+    "agent_1": {
+      "behavior": "neutral",
+      "checkpoint": "neutral_seed46.pt"
+    },
+    "agent_2": {
+      "behavior": "conservative",
+      "checkpoint": "conservative_seed50.pt"
+    }
+  },
+  "observation_dim": 47,
+  "joint_observation_dim": 141,
+  "action_dim": 4
+}

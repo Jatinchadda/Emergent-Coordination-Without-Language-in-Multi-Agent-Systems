@@ -1,0 +1,46 @@
+{
+  "mean_reward": 1.1953441391017312,
+  "agent_mean_reward": [
+    0.220962057748393,
+    0.8141008111422184,
+    2.550969548414581
+  ],
+  "mean_episode_length": 90.0,
+  "collision_rate": 1.0,
+  "mean_collisions": 1.0,
+  "mean_near_collisions": 20.45,
+  "mean_minimum_distance": 2.104766876262768,
+  "mean_minimum_ttc": 0.3584959783207303,
+  "completion_rate": 0.0,
+  "agent_completion_rate": {
+    "agent_0": 0.0,
+    "agent_1": 0.0,
+    "agent_2": 0.1
+  },
+  "agent_collision_rate": {
+    "agent_0": 0.6,
+    "agent_1": 0.1,
+    "agent_2": 0.5
+  },
+  "agent_agent_collision_rate": {
+    "agent_0": 0.15,
+    "agent_1": 0.1,
+    "agent_2": 0.15
+  },
+  "agent_background_contact_rate": {
+    "agent_0": 0.45,
+    "agent_1": 0.0,
+    "agent_2": 0.35
+  },
+  "agent_mean_route_progress": {
+    "agent_0": 0.49990273277588104,
+    "agent_1": 0.27832589717655676,
+    "agent_2": 0.5135393383642389
+  },
+  "agent_collision_episode_rate": 0.2,
+  "agent_agent_collision_episode_rate": 0.2,
+  "agent_traffic_collision_episode_rate": 0.8,
+  "collision_termination_rate": 1.0,
+  "collision_free_rate": 0.0,
+  "time_limit_rate": 0.0
+}

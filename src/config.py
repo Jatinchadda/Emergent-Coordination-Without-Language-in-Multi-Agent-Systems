@@ -1,0 +1,3 @@
+SEED = 42
+TRAIN_STEPS = 100_000
+MODEL_DIR = "models"

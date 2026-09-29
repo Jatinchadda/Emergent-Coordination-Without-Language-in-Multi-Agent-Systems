@@ -1,0 +1,89 @@
+[
+  {
+    "phase": "phase_2",
+    "update": 1,
+    "environment_steps": 1024,
+    "rollout_reward": -0.013549569062888622,
+    "rollout_episode_length": 1024.0,
+    "rollout_collision_rate": 0.0,
+    "completed_episodes": 0,
+    "actor_loss": -0.027488113704344466,
+    "critic_loss": 0.0158486234722659,
+    "entropy": 1.3645817952023611,
+    "approx_kl": 0.00757052912376821,
+    "clip_fraction": 0.05810546875,
+    "evaluation": {
+      "mean_reward": -44.925680283475415,
+      "agent_mean_reward": [
+        -34.22853140236983,
+        -66.84941058747823,
+        -33.699098860578204
+      ],
+      "mean_episode_length": 34.0,
+      "collision_rate": 1.0,
+      "mean_collisions": 1.0,
+      "mean_near_collisions": 13.0,
+      "mean_minimum_distance": 2.3228192207767027,
+      "mean_minimum_ttc": 0.8144856263405441,
+      "completion_rate": 0.0
+    }
+  },
+  {
+    "phase": "phase_2",
+    "update": 2,
+    "environment_steps": 2048,
+    "rollout_reward": -0.07656732946634293,
+    "rollout_episode_length": 11.0,
+    "rollout_collision_rate": 1.0,
+    "completed_episodes": 1,
+    "actor_loss": -0.018773174236735538,
+    "critic_loss": 10.794675568739573,
+    "entropy": 1.366289840804206,
+    "approx_kl": 0.00032504143503805,
+    "clip_fraction": 0.004774305555555556,
+    "evaluation": {
+      "mean_reward": -45.01864799156436,
+      "agent_mean_reward": [
+        -34.18777421270946,
+        -66.81274392081156,
+        -34.05542584117208
+      ],
+      "mean_episode_length": 30.333333333333332,
+      "collision_rate": 1.0,
+      "mean_collisions": 1.0,
+      "mean_near_collisions": 10.0,
+      "mean_minimum_distance": 2.3086025236559915,
+      "mean_minimum_ttc": 0.8107202118430665,
+      "completion_rate": 0.0
+    }
+  },
+  {
+    "phase": "phase_2",
+    "update": 3,
+    "environment_steps": 3072,
+    "rollout_reward": -0.01023812871426344,
+    "rollout_episode_length": 1024.0,
+    "rollout_collision_rate": 0.0,
+    "completed_episodes": 0,
+    "actor_loss": -0.02405201281524367,
+    "critic_loss": 0.007851482892874628,
+    "entropy": 1.366264346573088,
+    "approx_kl": 0.005396353300764329,
+    "clip_fraction": 0.10004340277777778,
+    "evaluation": {
+      "mean_reward": -47.43769937031769,
+      "agent_mean_reward": [
+        -38.16193767311629,
+        -101.29846734552223,
+        -2.8526930923145564
+      ],
+      "mean_episode_length": 99.33333333333333,
+      "collision_rate": 1.0,
+      "mean_collisions": 1.0,
+      "mean_near_collisions": 78.33333333333333,
+      "mean_minimum_distance": 2.0814005047327804,
+      "mean_minimum_ttc": 0.550824564964857,
+      "completion_rate": 0.0
+    }
+  }
+]
